@@ -3,6 +3,9 @@ let statesFound = new Set();
 function updateCount() {
     const selectedState = document.getElementById("stateDropdown").value;
     statesFound.add(selectedState);
+
+    const inputStates = document.getElementById("stateInput").value;
+    statesFound.add(stateInput);
     
     // Update count
     document.getElementById("count").innerText = `States Found: ${statesFound.size}`;

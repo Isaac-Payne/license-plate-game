@@ -1,9 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    text-align: center;
 }
 
 #stateDropdown {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+Input{
+    text-align: center;
     margin-top: 20px;
     padding: 10px;
 }
